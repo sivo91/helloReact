@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=EB+Garamond&family=Eater&family=Frijole&family=Griffy&family=Kelly+Slab&family=Nosifer&family=Rye&family=Shojumaru&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  font-family: 'Shojumaru', cursive;
+  background-color: rgb(232, 229, 233);
+}
+
+.navbar {
+  text-align: center;
+  width: 100%;
+  padding: 35px;
+  color: rgb(14, 14, 139);
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template: 
+   ' box1 box2 box3'
+   ' box1 box2 box3'
+   ' box1 box2 box3'
+  ;
+}
+
+.box1 {
+  grid-area: box1;
+  justify-content: flex-end;
+  color: rgb(18, 18, 141);
+  font-size: 30px;
+  text-align: center;
+}
+
+.box2 {
+  grid-area: box2;
+  font-size: 30px;
+  color: rgb(18, 18, 128);
+  text-align: center;
+}
+
+.box3 {
+  grid-area: box3;
+  font-size: 30px;
+  color: rgb(18, 18, 128);
+  text-align: center;
+}
+
+.ocko {
+  width: 300px;
+  border-radius: 30px;
+}
+
+.ocko:hover {
+  transform: scale(1.02);
+}
+
+.shad:hover {
+  transform: scale(1.02);
+}
+
+
+
+@media screen and (max-width: 680px) {
+   .header {
+     overflow-y: hidden;
+     display: flex;
+     flex-direction: column;
+   }
+
+   .navbar {
+  text-align: center;
+  width: 100%;
+  padding: 35px;
+  color: rgb(14, 14, 139);
+  border-bottom: none;
+  overflow: hidden;
+}
+
+     .box1 {
+  border-top: 1px solid blue;
+  padding-top: 15px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(18, 18, 128);
+  text-align: center;
+}
+
+   .box2 {
+  border-top: 1px solid blue;
+  padding-top: 15px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(18, 18, 128);
+  text-align: center;
+}
+
+ .box3 {
+  border-top: 1px solid blue;
+  padding-top: 15px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(18, 18, 128);
+  text-align: center;
+  margin-bottom: 40px;
+}
+}
+
+
+
+
+
+
+
+
+
