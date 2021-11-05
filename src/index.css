@@ -114,7 +114,39 @@ body {
 }
 }
 
+  /*  orlando ********************/
 
+   .panel1 {
+     position: relative;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+   }
+
+   .orlando, .alaska, .utah {
+     position: relative;
+     margin: 100px;
+     text-align: center;
+     
+
+   }
+
+   .orlando img {
+     width: 300px;
+     border-radius: 20px;
+   }
+
+   .alaska img {
+     width: 300px;
+     border-radius: 20px;
+   }
+
+   .utah img {
+     width: 300px;
+     border-radius: 20px;
+   }
+
+   
 
 
 

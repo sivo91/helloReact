@@ -29,11 +29,12 @@ const HTML = () => {
   )
 }
 
+
 const JS = () => {
   return (
      <section className="box2">
         <h3>JS</h3>
-         <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" className="ocko" alt="shad" />
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1469&q=80" className="ocko" alt="shad" /> 
      </section>
   )
 }
